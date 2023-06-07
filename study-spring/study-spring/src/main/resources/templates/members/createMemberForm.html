@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<body>
+<div class="container">
+  <h3>Join</h3>
+  <form action="/members/new" method="post">
+    <table>
+    <tr>
+      <td><label for="name">이름</label></td>
+      <td><input type="text" id="name" name="name" placeholder="이름을 입력하세요"></td>
+    </tr>
+    <tr>
+      <td> <label for="name">주소</label></td>
+      <td><input type="text" id="adress" name="adress" placeholder="주소를 입력하세요"></td>
+    </tr>
+   <tr>
+     <td><label for="name">이메일</label></td>
+     <td><input type="email" id="email" name="email" placeholder="이메일을 입력하세요"></td>
+   </tr>
+    <button type="submit">Join</button>
+  </form>
+  </table>
+</div>
+</body>
+</html>
